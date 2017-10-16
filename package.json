@@ -1,5 +1,5 @@
 {
-  "name": "ag-grid",
+  "name": "ag-grid2",
   "version": "2.3.7",
   "description": "Advanced Framework Agnostic Javascript Datagrid.",
   "main": "dist/ag-grid.min.js",
@@ -19,6 +19,9 @@
   ],
   "author": "Niall Crosby <info@angulargrid.com>",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "http://10.70.0.100/api/npm/npm-local"
+  },
   "bugs": {
     "url": "https://github.com/ceolter/ag-grid/issues"
   },
